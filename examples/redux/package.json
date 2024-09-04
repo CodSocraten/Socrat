@@ -1,0 +1,21 @@
+{
+  "name": "@Socratic11-example/redux",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "@Socratic11/core": "workspace:*",
+    "@Socratic11/dashboard": "workspace:*",
+    "@Socratic11/store-redux": "workspace:*",
+    "@Socratic11/tus": "workspace:*",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
