@@ -1,0 +1,22 @@
+{
+  "name": "@Socratic11-example/transloadit-markdown-bin",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@Socratic11/core": "workspace:*",
+    "@Socratic11/dashboard": "workspace:*",
+    "@Socratic11/drop-target": "workspace:*",
+    "@Socratic11/image-editor": "workspace:*",
+    "@Socratic11/remote-sources": "workspace:*",
+    "@Socratic11/transloadit": "workspace:*",
+    "@Socratic11/webcam": "workspace:*",
+    "marked": "^4.0.18"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  }
+}
