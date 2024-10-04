@@ -1,0 +1,28 @@
+{
+  "name": "@Socratic11-example/transloadit",
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@Socratic11/core": "workspace:*",
+    "@Socratic11/dashboard": "workspace:*",
+    "@Socratic11/drop-target": "workspace:*",
+    "@Socratic11/form": "workspace:*",
+    "@Socratic11/image-editor": "workspace:*",
+    "@Socratic11/progress-bar": "workspace:*",
+    "@Socratic11/remote-sources": "workspace:*",
+    "@Socratic11/transloadit": "workspace:*",
+    "@Socratic11/webcam": "workspace:*",
+    "express": "^4.16.4",
+    "he": "^1.2.0"
+  },
+  "private": true,
+  "scripts": {
+    "start:server": "node server.js",
+    "start:client": "vite",
+    "start": "npm-run-all --parallel start:server start:client"
+  }
+}
