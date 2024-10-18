@@ -1,0 +1,23 @@
+{
+  "name": "@Socratic11-example/vue3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@Socratic11/core": "workspace:*",
+    "@Socratic11/dashboard": "workspace:*",
+    "@Socratic11/drag-drop": "workspace:*",
+    "@Socratic11/progress-bar": "workspace:*",
+    "@Socratic11/tus": "workspace:*",
+    "@Socratic11/vue": "workspace:*",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "vite": "^4.0.0"
+  }
+}
